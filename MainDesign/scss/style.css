@@ -1,0 +1,182 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Use the variables */
+body {
+  background: radial-gradient(39.56% 48.29% at 20% 115.78%, #FF1675 0%, rgba(255, 22, 121, 0) 100%), radial-gradient(54.23% 74.52% at 69.72% -10.08%, #FF1675 0%, rgba(255, 22, 121, 0) 100%), radial-gradient(21.67% 31.7% at 39.72% 107.79%, rgba(74, 51, 209, 0.8) 0%, rgba(74, 51, 209, 0) 100%), radial-gradient(40.08% 51.33% at 85.83% 24.14%, rgba(74, 51, 209, 0.8) 0%, rgba(74, 51, 209, 0) 100%), #242145;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: r rgb(255, 255, 255);
+}
+
+.header1 {
+  background-color: #01020c;
+}
+.header1 ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.header1 li {
+  margin-right: 40px;
+  padding-block: 20px;
+  list-style-type: none;
+}
+.header1 li a {
+  color: rgb(255, 255, 255);
+  -webkit-text-decoration: 5px solid white;
+          text-decoration: 5px solid white;
+}
+
+.header2 {
+  background-color: #232a72;
+}
+.header2 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header2 li {
+  margin-right: 40px;
+  padding-block: 20px;
+  list-style-type: none;
+}
+.header2 li .sales {
+  color: #ffffff;
+  padding: 12px 28px;
+  border: 2px solid rgb(241, 241, 241);
+  border-radius: 999px;
+}
+.header2 li .plans {
+  color: #ffffff;
+  padding: 22px 48px;
+  border-radius: 999px;
+  background-color: red;
+}
+.header2 li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.header3 {
+  background-color: rgba(255, 14, 14, 0.727);
+  padding: 15px 0px;
+}
+.header3 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header3 li {
+  margin-right: 40px;
+  padding-block: 20px;
+  list-style-type: none;
+}
+.header3 li .shop {
+  color: #ffffff;
+  padding: 12px 50px;
+  border-radius: 999px;
+  background-color: rgb(0, 0, 0);
+}
+.header3 li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.section1 {
+  color: rgb(255, 255, 255);
+}
+.section1 .main {
+  margin: 50px 130px;
+  padding: 60px 38px;
+  border-radius: 19px;
+  background-color: rgba(6, 2, 2, 0.209);
+  text-align: center;
+  justify-items: center;
+}
+.section1 .main .pl {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.section1 .main .sd {
+  color: azure;
+  padding: 50px 250px;
+  align-content: center;
+  justify-items: center;
+}
+.section1 .main .button {
+  color: #ffffff;
+  padding: 12px 58px;
+  border-radius: 999px;
+  background-color: red;
+  width: 100px;
+  display: inline;
+  justify-items: center;
+}
+.section1 .main .landingimg {
+  padding-top: 50px;
+}
+.section1 .org {
+  color: #ffffff;
+  text-align: center;
+}
+.section1 .grid-item {
+  display: flex;
+  justify-content: center;
+}
+
+.section2 {
+  background-color: #ffffff;
+  height: 600px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.section2 .sec1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.cardholder {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  margin: 30px 50px;
+}
+.cardholder .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  padding: 30px;
+}
+.cardholder .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.cardholder .container {
+  padding: 2px 16px;
+}
+.cardholder .container .ski {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding: 20px 0px;
+}
+.cardholder .container .list1 {
+  padding: 10px 0px;
+}
+.cardholder .container .list {
+  padding: 10px 0px;
+  border-bottom: solid 2px rgba(21, 19, 19, 0.707);
+}
+.cardholder .container .btn {
+  color: #ffffff;
+  margin-top: 12px;
+  padding: 12px 48px;
+  border-radius: 999px;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
