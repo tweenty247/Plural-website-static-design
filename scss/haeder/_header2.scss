@@ -1,0 +1,38 @@
+.header2 {
+    background-color: #232a72;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    li {
+        margin-right: 40px;
+        padding-block: 20px;
+        list-style-type: none;
+
+        .sales {
+            color: #ffffff;
+            padding: 12px 28px;
+            border: 2px solid rgb(241, 241, 241);
+            border-radius: 999px;
+            //float: right;
+        }
+
+        .plans {
+            color: #ffffff;
+            padding: 22px 48px;
+            border-radius: 999px;
+            background-color: red;
+            //float: right;
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+           // padding-top: 50px;
+        }
+    }
+}

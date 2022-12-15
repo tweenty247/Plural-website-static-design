@@ -1,0 +1,26 @@
+$bgcolor: rgb(211, 16, 16);
+$textcolor: rgb(255, 255, 255);
+$fontsize: 18px;
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Use the variables */
+body {
+  background: radial-gradient(39.56% 48.29% at 20% 115.78%, #FF1675 0%, rgba(255, 22, 121, 0) 100%), radial-gradient(54.23% 74.52% at 69.72% -10.08%, #FF1675 0%, rgba(255, 22, 121, 0) 100%), radial-gradient(21.67% 31.7% at 39.72% 107.79%, rgba(74, 51, 209, 0.8) 0%, rgba(74, 51, 209, 0) 100%), radial-gradient(40.08% 51.33% at 85.83% 24.14%, rgba(74, 51, 209, 0.8) 0%, rgba(74, 51, 209, 0) 100%), #242145;
+  
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: r$textcolor;
+}
+
+@import "./haeder/header";
+@import"./haeder/header2";
+@import"./haeder/header3";
+@import"./haeder/mainsection";
+@import"./cards";
