@@ -1,15 +1,16 @@
 .cardholder {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-    margin: 30px 50px;
+    display: inline-flex;
+    grid-template-columns: auto auto;
+    margin: 30px 150px;
+    padding: 30px 100px;
 
 
     .card {
         box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
         transition: 0.3s;
-        width: 40%;
         padding: 50px;
+        margin: 50px;
+        width: 40%;
         border-radius: 19px;
     }
 
