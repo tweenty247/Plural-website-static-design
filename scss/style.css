@@ -133,7 +133,7 @@ h1 {
 .section2 {
   background-color: #ffffff;
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 .section2 .sec1 {
   color: rgb(0, 0, 0);
@@ -279,6 +279,96 @@ h1 {
 }
 .section2 .reviews .card-holder .sub-card-holder .container {
   padding: 2px 16px;
+}
+.section2 .reviews .firstfooter {
+  display: inline-flex;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+  padding: 0px 20px;
+}
+.section2 .reviews .firstfooter .box1 {
+  padding: 100px 100px;
+  background: -moz-linear-gradient(rgb(36, 33, 70), rgb(36, 33, 70), rgb(92, 29, 82));
+  border-radius: 20px;
+  margin: 12px;
+  color: #ffffff;
+}
+.section2 .reviews .firstfooter .box1 p {
+  color: #ffffff;
+}
+.section2 .reviews .firstfooter .box1 .box1btn {
+  display: inline-flex;
+  grid-template-columns: auto auto;
+}
+.section2 .reviews .firstfooter .box1 .box1btn .btn {
+  color: #ffffff;
+  padding: 22px 48px;
+  border-radius: 999px;
+  background-color: red;
+  margin: 8px;
+  font-weight: 600;
+}
+.section2 .reviews .firstfooter .box2 {
+  padding: 100px 50px;
+  background: -moz-linear-gradient(rgb(36, 33, 70), rgb(29, 70, 124));
+  border-radius: 20px;
+  margin: 12px;
+  color: #ffffff;
+}
+.section2 .reviews .firstfooter .box2 p {
+  color: #ffffff;
+}
+.section2 .reviews .firstfooter .box2 .btn {
+  color: #ffffff;
+  padding: 22px 48px;
+  border-radius: 999px;
+  background-color: red;
+  margin: 18px 160px;
+  font-weight: 600;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  color: #ffffff;
+  background-color: rgb(36, 33, 69);
+  width: 100%;
+  padding: 100px;
+}
+.footer .row1 h3 {
+  font-weight: bolder;
+}
+.footer .row1 p {
+  padding-top: 10px;
+  color: rgb(114, 115, 167);
+}
+.footer .row2 h3 {
+  font-weight: bolder;
+}
+.footer .row2 p {
+  padding-top: 10px;
+  color: rgb(114, 115, 167);
+}
+.footer .row3 h3 {
+  font-weight: bolder;
+}
+.footer .row3 p {
+  padding-top: 10px;
+  color: rgb(114, 115, 167);
+}
+.footer .row4 h3 {
+  font-weight: bolder;
+}
+.footer .row4 p {
+  padding-top: 10px;
+  color: rgb(114, 115, 167);
+}
+.footer .row5 h3 {
+  font-weight: bolder;
+}
+.footer .row5 p {
+  padding-top: 10px;
+  color: rgb(114, 115, 167);
 }
 
 .cardholder {
